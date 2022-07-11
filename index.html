@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Ecommerce</title>
+</head>
+<body>
+    <div class="container">
+        <header class="'section-top">
+            <div class="header-left">
+                <span class="material-icons" style="font-size:2rem; cursor:pointer">
+                    menu
+                    </span>
+                <h1>sneakers</h1>
+                <ul>
+                    <li>Collections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <i class="material-icons" style='font-size:2rem; cursor:pointer'>
+                    shopping_cart
+                </i>
+                <img src="images/image-avatar.png" alt="Avatar" style=" object-fit:contain; cursor:pointer;">
+            </div>
+        </header>
+        <hr style="max-width:1000px; margin:10px auto"/>
+        <div class="section-bottom">
+            <div class="bottom-left">
+             <img src="images/image-product-1.jpg" alt="Product" class="product-image">
+             <div class="thumbnail-images">
+                <img src="images/image-product-1-thumbnail.jpg" alt="Thumbnail" class="thumbnail-image">
+                <img src="images/image-product-2-thumbnail.jpg" alt="Thumbnail" class="thumbnail-image">
+                <img src="images/image-product-3-thumbnail.jpg" alt="Thumbnail" class="thumbnail-image">
+                <img src="images/image-product-4-thumbnail.jpg" alt="Thumbnail" class="thumbnail-image">
+             </div>
+            </div>
+            <div class="bottom-right">
+                <h5>SNEAKER COMPANY</h5>
+                <h2>Fall Limited Edition Sneakers</h2>
+                <p class="product-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand evverything the weather can offer.</p>
+                <div style="display:flex; flex-direction: column;" >
+                <div style="display:flex;" class="product-price-info">
+                 <h4 class="price">$125.00</h4>
+                 <span class="price-percentage">50%</span>
+                 </div>
+                 <span class="cancelled-price">$250.00</span>
+                </div>
+                
+                <div style="display:flex;" class="bottom-buttons">
+                    <div style="display:flex;border-radius: 15px;">
+                        <button class="subtract">-</button>
+                        <p class="total-items" style="margin:0">0</p>
+                        <button class="add">+</button>
+                    </div>
+                    <button class="add-to-cart">
+                        <i class="material-icons" style='font-size:1rem'>
+                            shopping_cart
+                        </i>
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
